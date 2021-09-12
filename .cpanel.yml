@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/cmgco756/public_html
+    - /home1/cmgco756/repositories -R CMGProducao $DEPLOYPATH
